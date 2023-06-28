@@ -8,9 +8,6 @@ from src.schemas.requests.mini_app_request import MiniAppURLRequest
 
 router = APIRouter()
 
-SESSION_TOKEN = """IQoJb3JpZ2luX2VjEAQaDmFwLXNvdXRoZWFzdC0xIkgwRgIhANuWKn34KsbDVPPNBhOlLKJgYqtUxGa3ZR1bEppUwfQfAiEAjk8C34+6ttKhKO6aUunOnH0PR/OweuJtZra7flJcQf8q6wEIbRAAGgw4ODY3NzkyNjEzNzAiDPMdKHv5EEJp/DcPOyrIAboZoj5llSRWazJjHeaHWlt0IO8hyuO9v4y5ip5fib6lYQtT2f40oAB1Ni4X51lRXMmOZuN8wF2u3kaSN4L3267Wu5R9/ThcCTAWwxdi7k1AHivyubTkt8YPUv85eLnwuskrkAu5kLYRf/HQ1UIVb1e7PvWKl8Sok87iNKRrYrZObvlbZK34tlndZFTsTPrTlQXMuzwOHCnWzfvznHgBm4541KgvtfLATHgk0YEeWoGO5fPeA3DvLXTrmuqsly11M4uK4UcjqvsvMObo7qQGOpcBGGqY9r/LqJEPifQN+aW3R2U5M9OgV8HxgFVIvaoyRPtFJHbO34Z26QQvvB7Gw/S2XgdV18oU4AisOiSSCNya2I5QWmsUyLEXxWQx0HjUEHrbjdzYqI209rC/GuHCXwMdDaYfSn+XCDG0aal8n2my6FtXy647oqg5zv++GZDE/zZCLz6KXLtlpEXtZ8hnOoCTVDR1y+4tyQ=="""
-
-
 @router.post(
     '/list_mini_app',
     summary='Get list mini app API',
